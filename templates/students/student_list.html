@@ -1,1 +1,3 @@
-{{students}}
+{% for student in students %}
+    <div>{{student.first_name}} {{student.last_name}}</div>
+{% endfor %}
